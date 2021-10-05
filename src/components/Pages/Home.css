@@ -1,0 +1,19 @@
+.home--wrapper{
+   
+    height: 100vh;
+    background: url('../../images/bg-tablet-pattern.svg');
+    background-repeat: no-repeat,no-repeat;
+    background-position:top -50px right -50px;
+    background-size: 50%;
+    box-sizing:border-box; 
+}
+
+
+
+
+
+@media screen and (max-width: 960px){
+    .home--wrapper{
+        background-size: 70%;
+    }
+} 

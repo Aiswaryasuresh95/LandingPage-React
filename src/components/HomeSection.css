@@ -1,0 +1,63 @@
+.home-container{
+    
+    display: flex;
+    padding: 5rem;
+    
+}
+
+.home-mainheading{
+   padding: 3rem 10rem 0 0;
+    text-align: left;
+    
+}
+
+.home-mainheading > h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+
+    
+}
+
+.home-mainheading > p{
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+
+}
+
+.home-mainillutration{
+
+    margin-left: -2rem;
+
+}
+
+
+@media screen and (max-width: 960px){
+
+    .home-container{
+        display: flex;
+        flex-direction:column-reverse;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .home-mainheading{
+        padding: 0;
+        text-align: center;
+    }
+
+    .home-mainheading >p{
+        font-size: 1.3rem;
+        line-height: 2rem;
+    
+
+    }
+    .home-mainillutration{
+
+        
+    
+    }
+}

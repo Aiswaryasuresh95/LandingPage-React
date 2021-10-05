@@ -1,0 +1,23 @@
+.client-card{
+    width: 30rem;
+    height: 12rem;
+    background:  hsl(13, 100%, 96%);
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    padding: 0 2rem;
+    overflow: visible;
+    
+    
+}
+
+.client-image{
+    width: 4rem;
+    height: 4rem;
+     
+}
+
