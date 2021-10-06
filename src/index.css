@@ -30,3 +30,8 @@ p{
   font-size: 0.8rem;
   line-height: 1.5rem;
 }
+li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

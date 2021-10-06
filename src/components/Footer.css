@@ -1,7 +1,8 @@
 .footer--wrapper{
     width: 100%;
     margin: 4rem 0;
-
+   background: black;
+   color: white;
     
 }
 .footer--sectionmain{
@@ -23,4 +24,94 @@
     
     
      
+}
+
+.footer--socialsmenu{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:repeat(90%,10%) ;
+    padding:3rem 4rem;
+
+}
+
+.logo--socialicons{
+    
+
+}
+.logo--socialicons li{
+    float: left;
+    color: white;
+    margin-top: 5rem;
+    margin-left: 0.8rem;
+}
+.icons{
+    margin-left: -4rem;
+}
+.icon--fb{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: white;
+    color: black;
+    border-radius: 1px;
+    text-align: center;
+}
+.icon--yt{
+    width: 1.7rem;
+    height: 1.7rem;
+    background-color: white;
+    border-radius: 1rem;
+    text-align: center;
+    padding-top: 0.2rem;
+}
+.icon--pi{
+    width: 1.7rem;
+    height: 1.7rem;
+    background-color: white;
+    border-radius: 1rem;
+    text-align: center;
+    padding-top: 0.3rem;
+
+}
+
+
+.menu--one{
+
+}
+
+.menu--one li{
+    margin-bottom: 1rem;
+}
+.menu--one li:last-child{
+    margin-bottom: 0;
+}
+
+
+.menu--two{
+
+}
+
+.menu--two li{
+    margin-bottom:1rem;
+}
+.menu--two li:last-child{
+    margin-bottom: 0;
+
+}
+
+.contact--input input{
+    width: 12rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border: transparent;
+    outline: transparent;
+    padding: 1rem;
+    font-size: 0.8rem;
+    margin-right: 1rem;
+
+}
+
+.copyright--section{
+    grid-column: 4;
+    margin-top: -2rem;
+    
 }

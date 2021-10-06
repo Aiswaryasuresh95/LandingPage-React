@@ -9,6 +9,7 @@ const  NavBar =() => {
   
     const [click,setClick]=useState(false);
     const [button,setButton]= useState(true);
+    const [scrolled,setScrolled]=useState(false)
 
     const handleMobileClick= () =>setClick(!click);
 
@@ -22,11 +23,30 @@ const  NavBar =() => {
       }
     };
 
+    
     useEffect(() => {
       showButton();
     }, []);
 
 window.addEventListener('resize',showButton);
+
+const handleScroll=() => {
+  const offset=window.scrollY;
+  if(offset > 200 ){
+    setScrolled(true);
+  }
+  else{
+    setScrolled(false);
+  }
+}
+
+useEffect(() => {
+  window.addEventListener('scroll',handleScroll)
+})
+let navbarClasses=['navbar'];
+if(scrolled){
+  navbarClasses.push('scrolled');
+}
 
 
 
@@ -35,7 +55,7 @@ window.addEventListener('resize',showButton);
     return (
       
 
-            <div className="navbar">
+            <div className={navbarClasses.join(" ")}>
                 <div className="navbar-container">
                     <Link to='/' className="navbar-logo">
                         <img src={logo}></img>

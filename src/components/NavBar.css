@@ -7,6 +7,14 @@
     padding: 1% 4%;
 } 
 
+.scrolled{
+   width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+  
+}
+
 .navbar-container{
     display: flex;
     justify-content: space-between;
