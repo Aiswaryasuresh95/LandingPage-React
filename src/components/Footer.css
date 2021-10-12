@@ -1,17 +1,17 @@
 .footer--wrapper{
     width: 100%;
     margin: 4rem 0;
-   background: black;
-   color: white;
+    background: black;
+    color: white;
     
 }
 .footer--sectionmain{
     width: 100%;
     height: 12rem;
     display: flex;
-    justify-content: center;
+    padding:0 8% 0 8%;
+    justify-content: space-between;
     align-items: center;
-    text-align: center;
     background: hsl(12, 88%, 59%);
    
     
@@ -21,7 +21,7 @@
     font-size: 2.5rem;
     color: white;
     text-align: left;
-    
+
     
      
 }
@@ -30,7 +30,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows:repeat(90%,10%) ;
-    padding:3rem 4rem;
+    padding:4% 8%;
 
 }
 
@@ -75,7 +75,7 @@
 
 
 .menu--one{
-
+    
 }
 
 .menu--one li{
@@ -106,6 +106,7 @@
     outline: transparent;
     padding: 1rem;
     font-size: 0.8rem;
+    margin-left: -1rem;
     margin-right: 1rem;
 
 }

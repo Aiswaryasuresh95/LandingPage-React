@@ -43,7 +43,7 @@ const handleScroll=() => {
 useEffect(() => {
   window.addEventListener('scroll',handleScroll)
 })
-let navbarClasses=['navbar'];
+let navbarClasses=['navbar--'];
 if(scrolled){
   navbarClasses.push('scrolled');
 }
@@ -56,53 +56,53 @@ if(scrolled){
       
 
             <div className={navbarClasses.join(" ")}>
-                <div className="navbar-container">
-                    <Link to='/' className="navbar-logo">
+                <div className="navbar--container">
+                    <Link to='/' className="navbar--logo">
                         <img src={logo}></img>
                     </Link>
               
                 
 
-               <ul className="nav-menu">
-                <li className="nav-item">
-                   <Link to='/' className="nav-links" onClick={closeMobileMenu}>
+               <ul className="nav--menu">
+                <li className="nav--item">
+                   <Link to='/' className="nav--links" onClick={closeMobileMenu}>
                       Home
                    </Link> 
                 </li>
 
-                <li className="nav-item">
-                    <Link to='/Pricing' className="nav-links" onClick={closeMobileMenu}>
+                <li className="nav--item">
+                    <Link to='/Pricing' className="nav--links" onClick={closeMobileMenu}>
                       Pricing
                     </Link> 
                 </li>
 
                 <li className="nav-item">
-                    <Link to='/Product' className="nav-links" onClick={closeMobileMenu}>
+                    <Link to='/Product' className="nav--links" onClick={closeMobileMenu}>
                       Product
                     </Link> 
                 </li>
 
                 <li className="nav-item">
-                   <Link to='/About-us' className='nav-links' onClick={closeMobileMenu}>
+                   <Link to='/About-us' className='nav--links' onClick={closeMobileMenu}>
                      About Us
                    </Link>
                 </li>
 
                 <li className="nav-item">
-                   <Link to='/Careers' className='nav-links' onClick={closeMobileMenu}>
+                   <Link to='/Careers' className='nav--links' onClick={closeMobileMenu}>
                      Careers
                    </Link>
                 </li>
 
                 <li className="nav-item">
-                   <Link to='/Community' className='nav-links' onClick={closeMobileMenu}>
+                   <Link to='/Community' className='nav--links' onClick={closeMobileMenu}>
                      Community
                    </Link>
                 </li>
               </ul>
              {button && <Button buttonstyle="btn--dark" buttonsize="btn--medium">Get started</Button> } 
 
-             <div className="menu-icon" onClick={handleMobileClick}>
+             <div className="menu--icon" onClick={handleMobileClick}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                 </div>
           

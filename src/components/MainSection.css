@@ -1,11 +1,12 @@
 .mainsection-wrapper{
  background:url('../images/bg-tablet-pattern.svg');
     background-repeat: no-repeat;
-     background-position: left -20rem bottom -20rem;
-    background-size:35rem; 
+     background-position: left -20rem bottom -15rem;
+    background-size:40rem; 
     display: grid;
     grid-template-columns: 50% 50%;
-    padding: 0 10% 0 10%;
+    padding: 0 8% 15% 8%;
+
 }
 
 

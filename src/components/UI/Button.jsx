@@ -21,7 +21,7 @@ buttonsize
 
     return(
         <Link to='/' className="btn-mobile">
-            <button type={type} className={`btn ${checkButtonStyle} ${checkButtonSize}`}>
+            <button type={type} className={`btn--outline ${checkButtonStyle} ${checkButtonSize}`}>
                 {children}
                 </button>
         </Link>

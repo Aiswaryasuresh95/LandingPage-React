@@ -1,12 +1,12 @@
 .home-container{
     
     display: flex;
-    padding: 5rem;
+    padding: 10% 8%;
     
 }
 
 .home-mainheading{
-   padding: 3rem 10rem 0 0;
+   padding: 3rem 7rem 0 0;
     text-align: left;
     
 }

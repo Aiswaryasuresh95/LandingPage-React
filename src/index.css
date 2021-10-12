@@ -35,3 +35,11 @@ li{
   margin: 0;
   padding: 0;
 }
+
+.scrolled{
+  width: 100%;
+   position: fixed;
+   top: 0;
+   background-color: white;
+ 
+}

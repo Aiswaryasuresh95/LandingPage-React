@@ -1,6 +1,6 @@
 import React from 'react';
-import Carousel from "react-elastic-carousel";
-import styled from "styled-components";
+import Carousel from "react-elastic-carousel";    
+import Button from './UI/Button';
 
 
 import TestimonialCard from './TestimonialCard';
@@ -64,13 +64,13 @@ const TestimonialSection = () =>{
             <h2>What they’ve said</h2>
             
             <div className="testimonial-card">
-              {/* <Carousel breakPoints={breakPoints}
+              <Carousel breakPoints={breakPoints}
               pagination={false}
               enableSwipe={true}
               showArrows={false}
             
               
-            > */}
+            > 
             {clientData.map((item) =>{ 
                 return(
                     <TestimonialCard 
@@ -81,8 +81,10 @@ const TestimonialSection = () =>{
                     />
                 )
             })}
-             {/* </Carousel>  */}
+             </Carousel> 
             </div>
+
+            <Button>Get Started</Button>
         
         </div>
     )

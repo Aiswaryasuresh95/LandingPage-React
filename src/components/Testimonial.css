@@ -1,7 +1,13 @@
 .testimonial-container{
     overflow:visible;
-
+    margin-top: -5.2rem;
+    text-align: center;
+    padding-bottom: 5rem;
     
+}
+
+.testimonial-container h2{
+    margin-bottom: 3rem;
 }
 
 
@@ -9,6 +15,8 @@
     display: flex;
     justify-content: space-around;
     overflow: visible;
+    margin-bottom: 3rem;
    
 }
+
 

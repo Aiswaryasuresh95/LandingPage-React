@@ -1,52 +1,45 @@
 
-.navbar {
+.navbar--{
     height: 5rem;
      position: sticky;
      top: 0;
-    z-index: 999;
-    padding: 1% 4%;
+     z-index: 999;
+     padding: 1% 6%;
 } 
 
-.scrolled{
-   width: 100%;
-    position: fixed;
-    top: 0;
-    background-color: white;
-  
-}
 
-.navbar-container{
+.navbar--container{
     display: flex;
     justify-content: space-between;
     height: 100%;
 }
 
-  .navbar-logo{
+  .navbar--logo{
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
 }
 
-.menu-icon{
+.menu--icon{
     display: none;
 }
 
 
 
- .nav-menu {
+ .nav--menu {
     display: flex;
     list-style: none;
     text-align: center;
 
 }
 
-.nav-item {
+.nav--item {
   height: 4rem;
 
 }
 
 
-.nav-links{
+.nav--links{
     font-size: 0.9rem;
     text-decoration: none;
     color: rgb(44, 43, 43);
