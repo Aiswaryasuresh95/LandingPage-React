@@ -27,7 +27,8 @@
 }
 
 .home-mainillutration{
-
+    width: 100%;
+    height: 100%;
     margin-left: -2rem;
 
 }
@@ -55,9 +56,16 @@
     
 
     }
-    .home-mainillutration{
+   
+}
 
+@media screen and (max-width : 560px) {
+   
+
+      .home-mainillutration img{
         
+        width: 100%;
+        height: 100%;
     
-    }
+    } 
 }

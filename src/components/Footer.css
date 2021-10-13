@@ -29,15 +29,11 @@
 .footer--socialsmenu{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows:repeat(90%,10%) ;
     padding:4% 8%;
 
 }
 
-.logo--socialicons{
-    
 
-}
 .logo--socialicons li{
     float: left;
     color: white;
@@ -74,9 +70,7 @@
 }
 
 
-.menu--one{
-    
-}
+
 
 .menu--one li{
     margin-bottom: 1rem;
@@ -86,9 +80,7 @@
 }
 
 
-.menu--two{
 
-}
 
 .menu--two li{
     margin-bottom:1rem;
@@ -115,4 +107,62 @@
     grid-column: 4;
     margin-top: -2rem;
     
+}
+
+@media screen and (max-width: 960px) {
+    .footer--socialsmenu{
+        display: grid;
+        grid-template-columns:50% 50%;
+
+    }
+
+    .contact--input{
+        grid-column:1/3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        padding: 0;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+   
+    .logo--socialicons{
+        grid-row: 3;
+        grid-column: 1/3;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        display: flex;
+        flex-direction:column;
+    }
+
+    .logo--socialicons img{
+       
+    }
+   
+   .icons{
+       text-align: center;
+       margin-left: 12rem;
+   }
+
+   .logo--socialicons li{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+    .menu--one,.menu--two{
+        text-align: center;
+       margin-bottom: 2rem;
+    }
+   
+    
+    .copyright--section{
+        grid-column: 1/3;
+        grid-row: 5;
+        padding: 0;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+     
 }
