@@ -3,6 +3,7 @@ import NavBar from '../NavBar';
 import MainSection from '../MainSection';
 import TestimonialSection from '../Testimonial';
 import Footer from '../Footer';
+import '../NavBar.css';
 
 
 import Homsection from '../HomeSection';
@@ -11,7 +12,7 @@ import './Home.css';
 
 const Home= () =>{
     return(
-        <section className="home--wrapper">
+        <section className="home--wrapper overlay">
            <NavBar /> 
           <Homsection />
           <MainSection/>

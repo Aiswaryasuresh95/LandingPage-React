@@ -10,7 +10,8 @@
     flex-direction: column;
     border-radius: 1rem;
     padding: 0 2rem;
-    overflow: visible;
+
+    box-sizing: border-box;
     
     
 }
@@ -22,5 +23,11 @@
     width: 4rem;
     height: 4rem;
      
+}
+
+@media screen and (max-width:960px){
+    .client-card{
+        padding: 2rem ;
+    }
 }
 

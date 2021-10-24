@@ -62,7 +62,7 @@ if(scrolled){
                     </Link>
               
                 
-
+              <div className="mobile-menu">
                <ul className="nav--menu">
                 <li className="nav--item">
                    <Link to='/' className="nav--links" onClick={closeMobileMenu}>
@@ -100,7 +100,9 @@ if(scrolled){
                    </Link>
                 </li>
               </ul>
+              </div>
              {button && <Button buttonstyle="btn--dark" buttonsize="btn--medium">Get started</Button> } 
+            
 
              <div className="menu--icon" onClick={handleMobileClick}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

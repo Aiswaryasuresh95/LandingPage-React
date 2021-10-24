@@ -1,6 +1,6 @@
 .testimonial-container{
     overflow:visible;
-    margin-top: -5.2rem;
+    margin-top: -5rem;
     text-align: center;
     padding-bottom: 5rem;
     
@@ -18,5 +18,30 @@
     margin-bottom: 3rem;
    
 }
+  button.rec{
+    box-shadow: 0 0 1px 3px hsl(12, 88%, 59%) ;
+    
+  }
 
+  div.rec-slider-container{
+      margin-right: 0;
+      margin-left: 1rem;
+      
+  }
+
+  button.rec-dot_active{
+      background:hsl(12, 88%, 59%);
+      outline: transparent;
+      border: transparent;
+      box-shadow: 0 0 1px 3px hsl(12, 88%, 59%) ;
+  }
+  
+
+
+@media screen and (max-width:960px) {
+  .testimonial-container
+   {
+       margin-top: 0;
+   }    
+}
 

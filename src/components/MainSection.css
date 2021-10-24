@@ -11,6 +11,8 @@
 
 
 
+
+
 .mainsection-about-heading{
     padding-right: 8rem;
 }
@@ -24,15 +26,14 @@
     .mainsection-wrapper{
         display: flex;
         flex-direction: column;
-        margin:4rem 0 6rem 0;
+        background-image: none;
         padding: 0;
-        background-position-x: 250px;
-        background-position-y: -100px;
-        background-size: 20em;
-  
+        
         
         
     }
+
+   
    
 
 

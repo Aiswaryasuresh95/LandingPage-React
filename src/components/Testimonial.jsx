@@ -15,8 +15,8 @@ import img4 from '../images/avatar-shanai.png';
 
 const breakPoints = [
     { width: 1, itemsToShow: 1 },
-    { width: 550, itemsToShow: 2, itemsToScroll: 2 },
-    { width: 768, itemsToShow: 3 },
+    { width: 550, itemsToShow: 1, itemsToScroll: 1 },
+    { width: 768, itemsToShow: 2 },
     { width: 1200, itemsToShow: 3 }
   ];
 
@@ -65,7 +65,7 @@ const TestimonialSection = () =>{
             
             <div className="testimonial-card">
               <Carousel breakPoints={breakPoints}
-              pagination={false}
+              pagination={true}
               enableSwipe={true}
               showArrows={false}
             

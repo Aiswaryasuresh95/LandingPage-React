@@ -43,7 +43,15 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        background: url(../images//bg-tablet-pattern.svg);
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position:bottom 10px right -200px;
+        padding-bottom: 15%;
+
     }
+
+
     
     .home-mainheading{
         padding: 0;

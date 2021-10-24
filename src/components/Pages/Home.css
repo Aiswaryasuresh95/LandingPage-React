@@ -6,7 +6,21 @@
     background-position:top -50px right -50px;
     background-size: 50%;
     box-sizing:border-box; 
+    z-index: 1;
+
 }
+ .overlay {
+    position: absolute;
+    /* display: none;   //overlay element is hidden until jquery shows it */
+     top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;   
+    /*absolutely position element covers entire page */
+    background: #939598;
+    opacity: .5;
+    z-index: 100; 
+ } 
 
 
 
@@ -16,4 +30,11 @@
     .home--wrapper{
         background-size: 70%;
     }
+    .mobile-menu{
+        
+        z-index: 1000000;
+        
+    }
+    
+    
 } 
