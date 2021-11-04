@@ -19,7 +19,7 @@
     
 
 }
-.footer--sectionmain::after{
+/* .footer--sectionmain::after{
     content: "";
     position: absolute;
     background-image: url('../images//bg-tablet-pattern.svg');
@@ -30,7 +30,7 @@
     margin-bottom: -5rem;
     opacity: .1;
     overflow: hidden;
-}
+} */
 
 
 .footer--sectionmain h1{
