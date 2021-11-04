@@ -62,10 +62,10 @@ if(scrolled){
                     </Link>
               
                 
-              <div className="mobile-menu">
+              <div className={"mobile--menu" +`${click ? "active": ''}`}>
                <ul className="nav--menu">
                 <li className="nav--item">
-                   <Link to='/' className="nav--links" onClick={closeMobileMenu}>
+                   <Link to='/' className="nav--links" onClick={closeMobileMenu} >
                       Home
                    </Link> 
                 </li>
@@ -76,25 +76,25 @@ if(scrolled){
                     </Link> 
                 </li>
 
-                <li className="nav-item">
+                <li className="nav--item">
                     <Link to='/Product' className="nav--links" onClick={closeMobileMenu}>
                       Product
                     </Link> 
                 </li>
 
-                <li className="nav-item">
+                <li className="nav--item">
                    <Link to='/About-us' className='nav--links' onClick={closeMobileMenu}>
                      About Us
                    </Link>
                 </li>
 
-                <li className="nav-item">
+                <li className="nav--item">
                    <Link to='/Careers' className='nav--links' onClick={closeMobileMenu}>
                      Careers
                    </Link>
                 </li>
 
-                <li className="nav-item">
+                <li className="nav--item">
                    <Link to='/Community' className='nav--links' onClick={closeMobileMenu}>
                      Community
                    </Link>

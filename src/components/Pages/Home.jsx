@@ -12,7 +12,7 @@ import './Home.css';
 
 const Home= () =>{
     return(
-        <section className="home--wrapper overlay">
+        <section className="home--wrapper">
            <NavBar /> 
           <Homsection />
           <MainSection/>

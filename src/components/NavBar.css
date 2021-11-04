@@ -53,16 +53,17 @@
 
    .menu--icon{display:inline}
 
-
+   .nav--menu{
+     padding: 0;
+   }
 
      
 
     .mobile-menu{
        
          background:white;
-       
+        display: none;
         width: 90vw;
-        height: 40vh;
         position: absolute;
         left: 5%;
         top: 80px;
@@ -70,10 +71,14 @@
         transition: all 0.5s ease;
         margin: 0;
         padding: 0;
-        border-radius: 2rem;
-      
-        box-shadow:0 0 0 10000px rgba(0,0,0,.50);
+        border-radius: 5px;
+        font-weight: 900;
+        /* box-shadow:0 0 0 10000px rgba(0,0,0,.50); */
   
+   }
+
+   .mobile-menu.active{
+     display: block;
    }
 
    .nav--menu{
@@ -81,6 +86,15 @@
     align-items: center;
     display: flex;
 
+   }
+
+   .nav--item {
+     height:1rem;
+     margin-bottom: 1rem;
+   }
+
+   .nav--links{
+     margin: 0;
    }
 
  }
