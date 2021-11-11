@@ -13,7 +13,7 @@ const  NavBar =() => {
 
     const handleMobileClick= () =>setClick(!click);
 
-    const closeMobileMenu = ( ) => setClick(false);
+    const closeMobileMenu = () => setClick(false);
 
     const showButton = () => {
       if (window.innerWidth <= 960) {
@@ -62,7 +62,7 @@ if(scrolled){
                     </Link>
               
                 
-              <div className={"mobile--menu" +`${click ? "active": ''}`}>
+              <div className={`mobile--menu ${click ? "active": ''}`}>
                <ul className="nav--menu">
                 <li className="nav--item">
                    <Link to='/' className="nav--links" onClick={closeMobileMenu} >
